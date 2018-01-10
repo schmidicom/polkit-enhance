@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/software/polkit/policyconfig-1.dtd">
+<policyconfig>
+
+  <action id="org.gentoo.portage.emerge">
+    <message>Authentication is required to run "emerge" with administratives rights.</message>
+    <message xml:lang="de">Es ist eine Authentifizierung notwendig um "emerge" mit Administratorenrechten auszuführen.</messa$
+    <icon_name>gentoo</icon_name>
+    <defaults>
+      <allow_any>auth_admin_keep</allow_any>
+      <allow_inactive>auth_admin_keep</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/emerge</annotate>
+  </action>
+
+  <action id="org.gentoo.portage.etc-update">
+    <message>Authentication is required to run "etc-update" with administratives rights.</message>
+    <message xml:lang="de">Es ist eine Authentifizierung notwendig um "etc-update" mit Administratorenrechten auszuführen.</m$
+    <icon_name>gentoo</icon_name>
+    <defaults>
+      <allow_any>auth_admin_keep</allow_any>
+      <allow_inactive>auth_admin_keep</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/sbin/etc-update</annotate>
+  </action>
+
+</policyconfig>

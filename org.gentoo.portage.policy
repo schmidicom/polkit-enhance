@@ -6,7 +6,7 @@
 
   <action id="org.gentoo.portage.emerge">
     <message>Authentication is required to run "emerge" with administratives rights.</message>
-    <message xml:lang="de">Es ist eine Authentifizierung notwendig um "emerge" mit Administratorenrechten auszuführen.</messa$
+    <message xml:lang="de">Es ist eine Authentifizierung notwendig um "emerge" mit Administratorenrechten auszuführen.</message>
     <icon_name>gentoo</icon_name>
     <defaults>
       <allow_any>auth_admin_keep</allow_any>
@@ -18,7 +18,7 @@
 
   <action id="org.gentoo.portage.etc-update">
     <message>Authentication is required to run "etc-update" with administratives rights.</message>
-    <message xml:lang="de">Es ist eine Authentifizierung notwendig um "etc-update" mit Administratorenrechten auszuführen.</m$
+    <message xml:lang="de">Es ist eine Authentifizierung notwendig um "etc-update" mit Administratorenrechten auszuführen.</message>
     <icon_name>gentoo</icon_name>
     <defaults>
       <allow_any>auth_admin_keep</allow_any>

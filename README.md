@@ -4,7 +4,7 @@ rules
 -----
 **00-myadmins.rules**  
 Path: /etc/polkit-1/rules.d/  
-Description: Make "root" an all Member of UNIX-Group "adm" to Admins  
+Description: Make "root" an all Member of UNIX-Group "wheel" to Admins  
 
 actions
 -------

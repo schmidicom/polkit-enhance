@@ -3,7 +3,7 @@
 ### 00-myadmins.rules
 Path: /etc/polkit-1/rules.d/  
 Description: Make "root" and all member of UNIX-Group "wheel" to admins  
-[ArchWiki - Polkit - Administrator identities] : https://wiki.archlinux.org/index.php/Polkit#Administrator_identities
+https://wiki.archlinux.org/index.php/Polkit#Administrator_identities
 
 ## actions
 ### org.gentoo.portage.policy

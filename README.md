@@ -4,13 +4,13 @@ rules
 -----
 **00-myadmins.rules**  
 Path: /etc/polkit-1/rules.d/  
-Description: Make "root" an all Member of UNIX-Group "wheel" to Admins  
+Description: Make "root" and all member of UNIX-Group "wheel" to admins  
 
 actions
 -------
 **org.gentoo.portage.policy**  
 Path: /usr/share/polkit-1/actions/  
-Description: Add polkit Action for "emerge", "euse" and "etc-update"  
+Description: Add polkit action for "emerge", "euse" and "etc-update"  
 **org.gentoo.shell.policy**  
 Path: /usr/share/polkit-1/actions/  
-Description: Add polkit Action for "bash", for example to use in an Profile on KDE Konsole  
+Description: Add polkit action for "bash", for example to use in an profile on KDE Konsole  

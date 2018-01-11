@@ -11,3 +11,6 @@ actions
 **org.gentoo.portage.policy**  
 Path: /usr/share/polkit-1/actions/  
 Description: Add polkit Action for "emerge", "euse" and "etc-update"  
+**org.gentoo.shell.policy**  
+Path: /usr/share/polkit-1/actions/  
+Description: Add polkit Action for "bash", for example to use in an Profile on KDE Konsole  

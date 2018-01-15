@@ -15,5 +15,5 @@ Path: /usr/share/polkit-1/actions/
 Description: Add polkit action for "bash", for example to use in an profile on KDE Konsole
 
 ### org.gentoo.samba.policy
-Path: /usr/share/polkit-1/actions/
+Path: /usr/share/polkit-1/actions/  
 Description: Add polkit action for "wbinfo", it need root for authenticate user.

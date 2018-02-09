@@ -3,11 +3,13 @@
  "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
  "http://www.freedesktop.org/software/polkit/policyconfig-1.dtd">
 <policyconfig>
+  <vendor>Gentoo Samba-Tools</vendor>
+  <vendor_url>https://github.com/schmidicom/polkit-enhance</vendor_url>
+  <icon_name>preferences-system-network</icon_name>
 
   <action id="org.gentoo.samba.wbinfo">
     <message>Authentication is required to run "wbinfo" with administratives rights.</message>
     <message xml:lang="de">Es ist eine Authentifizierung notwendig um "wbinfo" mit Administratorenrechten auszuführen.</message>
-    <icon_name>gentoo</icon_name>
     <defaults>
       <allow_any>no</allow_any>
       <allow_inactive>no</allow_inactive>

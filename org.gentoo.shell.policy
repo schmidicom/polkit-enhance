@@ -3,11 +3,13 @@
  "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
  "http://www.freedesktop.org/software/polkit/policyconfig-1.dtd">
 <policyconfig>
+  <vendor>Gentoo Root-Shell</vendor>
+  <vendor_url>https://github.com/schmidicom/polkit-enhance</vendor_url>
+  <icon_name>utilities-terminal</icon_name>
 
   <action id="org.gentoo.shell.bash">
     <message>Authentication is required to run "bash" with administratives rights.</message>
     <message xml:lang="de">Es ist eine Authentifizierung notwendig um "bash" mit Administratorenrechten auszuführen.</message>
-    <icon_name>gentoo</icon_name>
     <defaults>
       <allow_any>auth_admin_keep</allow_any>
       <allow_inactive>auth_admin_keep</allow_inactive>

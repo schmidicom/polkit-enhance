@@ -12,8 +12,12 @@ Description: Add polkit action for "emerge", "euse" and "etc-update"
 
 ### org.gentoo.shell.policy
 Path: /usr/share/polkit-1/actions/  
-Description: Add polkit action for "bash", for example to use in an profile on KDE Konsole
+Description: Add polkit action for a root-Shell.
 
 ### org.gentoo.samba.policy
 Path: /usr/share/polkit-1/actions/  
-Description: Add polkit action for "wbinfo", it need root for authenticate user.
+Description: Add polkit action for Samba-Tools that need root.
+
+### org.gentoo.netdev.policy
+Path: /usr/share/polkit-1/actions/  
+Description: Add polkit action for Network-Tools that need root.

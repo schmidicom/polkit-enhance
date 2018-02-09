@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/software/polkit/policyconfig-1.dtd">
+<policyconfig>
+  <vendor>Gentoo Network-Tools</vendor>
+  <vendor_url>https://github.com/schmidicom/polkit-enhance</vendor_url>
+  <icon_name>preferences-system-network</icon_name>
+
+  <action id="org.gentoo.netdev.arp-scan">
+    <message>Authentication is required to run "arp-scan" with administratives rights.</message>
+    <message xml:lang="de">Es ist eine Authentifizierung notwendig um "arp-scan" mit Administratorenrechten auszuführen.</message>
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/arp-scan</annotate>
+  </action>
+
+  <action id="org.gentoo.netdev.nmap">
+    <message>Authentication is required to run "nmap" with administratives rights.</message>
+    <message xml:lang="de">Es ist eine Authentifizierung notwendig um "nmap" mit Administratorenrechten auszuführen.</message>
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/nmap</annotate>
+  </action>
+
+</policyconfig>

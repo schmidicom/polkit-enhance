@@ -1,8 +1,9 @@
 # polkit-enhance
 ## rules
-### 00-myadmins.rules
-Path: /etc/polkit-1/rules.d/  
-Description: Make "root" and all member of UNIX-Group "wheel" to admins  
+### 10-admin.rules
+Path: /etc/polkit-1/rules.d/
+Description: Make "root" and all member of UNIX-Group "wheel" to admins
+https://wiki.gentoo.org/wiki/Polkit#Rules
 https://wiki.archlinux.org/index.php/Polkit#Administrator_identities
 
 ## actions
